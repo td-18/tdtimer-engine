@@ -1,0 +1,14 @@
+{
+  "name": "tdtimer-scramble-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "gen-tables": "node scripts/gen-tables.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
